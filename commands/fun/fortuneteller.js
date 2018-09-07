@@ -27,6 +27,6 @@ module.exports.run = function(bot, command, args, message, updateJSON, addFooter
 
 module.exports.help = {
     names: ['fortuneteller', 'ft'],
-    usage: 'b-ft',
+    usage: 's!ft',
     description: 'LEt your fortune be told'
 }
