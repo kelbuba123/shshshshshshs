@@ -21,6 +21,6 @@ module.exports.run = function(bot, command, args, message){
 
 module.exports.help = {
     names: ['balance'],
-    usage: 'b-8ball <question>',
+    usage: 's!8ball <question>',
     description: 'Ask a question...'
 }
