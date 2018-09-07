@@ -34,6 +34,6 @@ module.exports.run = function(bot, command, args, message, updateJSON, addFooter
 
 module.exports.help = {
     names: ['draw'],
-    usage: 'b-draw',
+    usage: 's!draw',
     description: 'Draws the winning lottery ticket'
 }
