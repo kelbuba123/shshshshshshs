@@ -30,6 +30,6 @@ module.exports.run = function(bot, command, args, message, updateJSON, addFooter
 
 module.exports.help = {
     names: ['answer'],
-    usage: 'e-command <args>',
+    usage: 's!command <args>',
     description: 'what?'
 }
