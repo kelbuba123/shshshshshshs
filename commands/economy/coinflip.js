@@ -4,7 +4,7 @@ const config = require(`../../config.json`);
 
 module.exports.run = function(bot, command, args, message, updateJSON, addFooter){
 
-        let usage = 'b-cf <amount>';
+        let usage = 's!cf <amount>';
         if(Math.floor(args[0]) != args[0]){
             let notNumberEmbed = new Discord.RichEmbed()
             .setColor('#FF4444')
@@ -69,6 +69,6 @@ module.exports.run = function(bot, command, args, message, updateJSON, addFooter
 
 module.exports.help = {
     names: ['coinflip', 'cf'],
-    usage: 'b-cf <amount>',
+    usage: 's!cf <amount>',
     description: 'Bet money where you lose all or win half'
 }
