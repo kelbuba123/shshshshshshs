@@ -56,6 +56,6 @@ module.exports.run = function(bot, command, args, message, updateJSON, addFooter
 
 module.exports.help = {
     names: ['payday', 'pd'],
-    usage: 'b-pd',
+    usage: 's!pd',
     description: 'Get $50 every 30 minutes'
 }
