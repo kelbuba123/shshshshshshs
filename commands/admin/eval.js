@@ -48,6 +48,6 @@ module.exports.run = function(bot, command, args, message){
 
 module.exports.help = {
     names: ['evaluate', 'eval'],
-    usage: 'b-eval <code>',
+    usage: 's!eval <code>',
     description: 'Evaluates code'
 }
