@@ -3,7 +3,7 @@ const fs = require('fs');
 const config = require(`../../config.json`);
 
 module.exports.run = function(bot, command, args, message, updateJSON, addFooter){
-        let usage = 'b-pay <amount> <user mention (optional)>';
+        let usage = 's!pay <amount> <user mention (optional)>';
         if(args[0] == ""||args[0]==undefined){
             let missingAmountEmbed = new Discord.RichEmbed()
             .setColor('#FF4444')
@@ -95,6 +95,6 @@ module.exports.run = function(bot, command, args, message, updateJSON, addFooter
 
 module.exports.help = {
     names: ['pay'],
-    usage: 'b-pay <amount> <user mention>',
+    usage: 's!pay <amount> <user mention>',
     description: 'Pay a user from  your balance'
 }
