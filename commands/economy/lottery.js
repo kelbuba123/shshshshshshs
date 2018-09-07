@@ -3,7 +3,7 @@ const fs = require('fs');
 const config = require(`../../config.json`);
 
 module.exports.run = function(bot, command, args, message, updateJSON, addFooter){
-        let usage = 'b-lottery buy'
+        let usage = 's!lottery buy'
         if(typeof args[0] == 'string'){
             if(args[0]=='buy'){
                 let authorInfo;
@@ -51,6 +51,6 @@ module.exports.run = function(bot, command, args, message, updateJSON, addFooter
 
 module.exports.help = {
     names: ['lottery'],
-    usage: 'b-lottery buy',
+    usage: 's!lottery buy',
     description: 'Buy a lottery ticket'
 }
