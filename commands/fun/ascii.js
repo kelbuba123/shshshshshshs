@@ -16,6 +16,6 @@ module.exports.run = function(bot, command, args, message, updateJSON, addFooter
 
 module.exports.help = {
     names: ['ascii'],
-    usage: 'b-ascii <text>',
+    usage: 's!ascii <text>',
     description: 'funny text...'
 }
