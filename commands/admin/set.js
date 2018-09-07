@@ -24,6 +24,6 @@ module.exports.run = function(bot, command, args, message, updateJSON, addFooter
 
 module.exports.help = {
     names: ['set'],
-    usage: 'b-set <user mention> <amount>',
+    usage: 's!set <user mention> <amount>',
     description: 'Set a users balance'
 }
