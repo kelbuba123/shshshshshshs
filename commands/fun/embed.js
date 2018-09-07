@@ -3,7 +3,7 @@ const fs = require('fs');
 const config = require(`./../../config.json`);
 
 module.exports.run = function(bot, command, args, message){
-        let usage = 'b-embed <url (ends with .png, .gif, .jpeg, or .jpg)>';
+        let usage = 's!embed <url (ends with .png, .gif, .jpeg, or .jpg)>';
         if(args[0]==undefined || args[0]==''){
             return message.channel.send('please include the url...');
         }
@@ -19,6 +19,6 @@ module.exports.run = function(bot, command, args, message){
 
 module.exports.help = {
     names: ['embed'],
-    usage: 'b-embed <url>',
+    usage: 's!embed <url>',
     description: 'Embed an image or gif'
 }
