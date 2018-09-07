@@ -10,6 +10,6 @@ module.exports.run = function(bot, command, args, message, updateJSON, addFooter
 
 module.exports.help = {
     names: ['restart'],
-    usage: 'b-restart',
+    usage: 's!restart',
     description: 'Restart me'
 }
