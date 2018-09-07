@@ -3,7 +3,7 @@ const fs = require('fs');
 const config = require(`./../../config.json`);
 
 module.exports.run = function(bot, command, args, message, updateJSON, addFooter){
-        let usage = 'e-discriminator <discriminator>';
+        let usage = 's!discriminator <discriminator>';
         if(args[0]==''||args[0]==undefined){
             let noNumberEmbed = new Discord.RichEmbed()
             .setColor('#FF4444')
@@ -47,6 +47,6 @@ module.exports.run = function(bot, command, args, message, updateJSON, addFooter
 
 module.exports.help = {
     names: ['discriminator', 'discrim'],
-    usage: 'b-discrim <discriminator ex user#discriminator>',
+    usage: 's!discrim <discriminator ex user#discriminator>',
     description: 'Get users with a discriminator'
 }
